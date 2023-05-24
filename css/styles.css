@@ -24,6 +24,7 @@
     --transition-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bg-color: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     --transition-border-color: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-border: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     --transitiom-box-shadow: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     --transition-opacity: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
     --transition-visibility: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -579,7 +580,7 @@ img {
     background-color:#E7E9FC;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    transition: var(--transition-bg-color), var(--transition-border-color);
+    transition: var(--transition-bg-color), var(--transition-border);
  }
 
  .modal-close-btn:hover,
